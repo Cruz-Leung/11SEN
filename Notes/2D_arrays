@@ -1,0 +1,5 @@
+for row = 0 to 2
+	for col = 0 to 2
+		display nums[row, col]
+    next col #an inner loop: goes back to col and changes col from 0 to 2 while row stays                          the same
+next row #vice versa: the outer loop

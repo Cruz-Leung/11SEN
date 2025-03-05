@@ -1,0 +1,20 @@
+scores = [5, 7, 9, 31, 11]
+
+DISPLAY scores[0]
+
+# we can do some really cool stuff with arrays!
+
+BEGIN max_in_array
+
+    max = 0 #5
+    item - 9
+    WHILE item < LENGTH scores  
+        IF scores[item] > max THEN
+            max - scores[item]
+        END IF 
+        item = item + 1 #increment by 1
+    END WHILE
+
+DISPLAY max
+END
+max_in_array(scores)
